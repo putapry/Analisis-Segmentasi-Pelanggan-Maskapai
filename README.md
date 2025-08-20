@@ -28,6 +28,6 @@ cluster_label
 2                              8349.17  
 
 <p align="center">
-  <img src="nama-file-gamb.png" alt="Grafik Elbow Method" width="450" />
-  <img src="nama-file-gambar-2.png" alt="Visualisasi Klaster K-Means dengan PCA" width="450" />
+  <img src="elbow.png" alt="Grafik Elbow Method" width="450" />
+  <img src="pca.png" alt="Visualisasi Klaster K-Means dengan PCA" width="450" />
 </p>
