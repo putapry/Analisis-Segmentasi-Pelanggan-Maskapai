@@ -25,3 +25,17 @@ Statistik Rata-rata Fitur per Klaster:
   <img src="elbow.png" alt="Grafik Elbow Method" width="450" />
   <img src="pca.png" alt="Visualisasi Klaster K-Means dengan PCA" width="450" />
 </p>
+
+Grafik ini menunjukkan bahwa 3 klaster adalah jumlah optimal, karena setelah titik ini, penambahan klaster tidak lagi memberikan peningkatan yang signifikan.
+
+1. Klaster 0: Pelanggan Sangat Berharga
+Kelompok ini menunjukkan metrik tertinggi dalam frekuensi terbang, jarak tempuh, dan perolehan poin. Mereka adalah pelanggan inti yang paling loyal dan bernilai.
+2. Klaster 1: Pelanggan dengan Engagement Rendah
+Kelompok ini memiliki metrik terendah di semua kategori. Mereka adalah segmen yang jarang berinteraksi dengan layanan maskapai, menunjukkan tingkat keterlibatan yang minimal.
+3. Klaster 2: Pelanggan Jarak Jauh Berpotensi Tinggi
+Meskipun frekuensi terbangnya rendah, kelompok ini menempuh jarak terjauh dan memiliki jumlah poin yang signifikan. Mereka mewakili pelanggan yang bepergian untuk rute jarak jauh dan memiliki potensi besar untuk ditingkatkan.
+
+## Rekomendasi Bisnis
+- Klaster 0 (Pelanggan Super Loyal) : Fokus pada retensi dan layanan eksklusif.
+- Klaster 1 (Pelanggan Rendah-Engagement) : Lakukan kampanye aktivasi dan edukasi tentang manfaat program loyalitas.
+- Klaster 2 (Pelanggan Jarak Jauh) : Beri insentif penukaran poin yang menarik, seperti upgrade kursi atau voucher hotel.
