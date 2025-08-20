@@ -1,5 +1,5 @@
 # Analisis-Segmentasi-Pelanggan-Maskapai
-Proyek ini bertujuan untuk mengidentifikasi segmen pelanggan yang berbeda dalam bisnis maskapai penerbangan menggunakan metode unsupervised machine learning. Hasilnya digunakan untuk memberikan rekomendasi bisnis yang terfokus.
+Proyek ini bertujuan untuk mengidentifikasi segmen pelanggan yang berbeda dalam bisnis maskapai penerbangan menggunakan metode unsupervised machine learning dengan dataset yang diambil dari **Kaggle**. Hasilnya digunakan untuk memberikan rekomendasi bisnis yang terfokus.
 
 # Tujuan Proyek
 - Menganalisis data penerbangan untuk mendapatkan wawasan awal.
@@ -14,3 +14,20 @@ Proyek ini bertujuan untuk mengidentifikasi segmen pelanggan yang berbeda dalam 
 4. Evaluasi: Menganalisis hasil klaster dengan visualisasi PCA dan memberikan interpretasi bisnis.
 
 # Hasil & Temuan Utama
+Statistik Rata-rata Fitur per Klaster:
+               FLIGHT_COUNT  SEG_KM_SUM  Points_Sum  EXCHANGE_COUNT  FFP_TIER  \
+cluster_label                                                                   
+0                     46.26    64617.32    57358.06            2.20         5   
+1                      8.90    12445.48     8268.25            0.15         4   
+2                      5.19    41084.21    27809.96            0.31         4   
+
+               AVG_DISTANCE_PER_FLIGHT  
+cluster_label                           
+0                              1494.81  
+1                              1461.28  
+2                              8349.17  
+
+<p align="center">
+  <img src="nama-file-gamb.png" alt="Grafik Elbow Method" width="450" />
+  <img src="nama-file-gambar-2.png" alt="Visualisasi Klaster K-Means dengan PCA" width="450" />
+</p>
