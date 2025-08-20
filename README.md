@@ -15,17 +15,11 @@ Proyek ini bertujuan untuk mengidentifikasi segmen pelanggan yang berbeda dalam 
 
 # Hasil & Temuan Utama
 Statistik Rata-rata Fitur per Klaster:
-               FLIGHT_COUNT  SEG_KM_SUM  Points_Sum  EXCHANGE_COUNT  FFP_TIER  \
-cluster_label                                                                   
-0                     46.26    64617.32    57358.06            2.20         5   
-1                      8.90    12445.48     8268.25            0.15         4   
-2                      5.19    41084.21    27809.96            0.31         4   
-
-               AVG_DISTANCE_PER_FLIGHT  
-cluster_label                           
-0                              1494.81  
-1                              1461.28  
-2                              8349.17  
+| cluster_label   | FLIGHT_COUNT   | SEG_KM_SUM   | Points_Sum   | EXCHANGE_COUNT   | FFP_TIER   | AVG_DISTANCE_PER_FLIGHT   |
+|:----------------|:---------------|:-------------|:-------------|:-----------------|:-----------|:--------------------------|
+| 0               | 46.26          | 64617.3      | 57358.1      | 2.2              | 5          | 1494.81                   |
+| 1               | 8.9            | 12445.5      | 8268.25      | 0.15             | 4          | 1461.28                   |
+| 2               | 5.19           | 41084.2      | 27810        | 0.31             | 4          | 8349.17                   |
 
 <p align="center">
   <img src="elbow.png" alt="Grafik Elbow Method" width="450" />
